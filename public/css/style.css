@@ -99,3 +99,68 @@ body{
     padding: 0.5rem 3rem 0.5rem 3rem !important;
     font-size: 0.9rem !important;
 }
+/* index page filter bar */
+#filters{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.filter{
+    text-align: center;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+    opacity: 0.65;
+}
+.filter:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.filter p{
+    font-size: 0.8rem;
+}
+
+.tax-info{
+    display: none;
+}
+.tax-toggle{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0.75rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+/* home page */
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 12rem); /* Full screen height minus navbar and footer height */
+    padding: 20px;
+}
+body.home-page{
+    background: linear-gradient(to right, #f0f8ff, #d3eaf9); /* Subtle gradient from dark blue to lighter blue */
+    color: #34495E;
+}
+
+/* Heading Styles */
+.heading {
+    font-size: 4rem; /* Large font for main heading */
+    margin: 0; /* Remove margin */
+    font-weight: bold;
+}
+
+/* Tagline Styles */
+.tagline {
+    font-size: 1.5rem; /* Smaller font for tagline */
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+/* Color for "StaySphere" word */
+.stay-color {
+    color: #ff2949; /* Apply color to only StaySphere */
+}

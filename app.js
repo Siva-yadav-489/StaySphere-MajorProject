@@ -65,9 +65,6 @@ const sessionOptions = {
 }
 
 
-// app.get("/", (req,res) =>{
-//     res.send("root working successsfully");
-// })
 
 app.use(session(sessionOptions))
 app.use(flash());
@@ -85,6 +82,10 @@ app.use((req,res,next) => {
     res.locals.error = req.flash("error");
     res.locals.currUser = req.user; // returns user details if logged in
     next();
+})
+
+app.get("/", (req,res) =>{
+    res.render("home.ejs");
 })
 
 app.use("/listings", listingRouter);
