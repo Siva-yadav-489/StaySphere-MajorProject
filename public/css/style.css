@@ -105,6 +105,15 @@ body{
     flex-wrap: wrap;
     align-items:center;
 }
+@media(max-width: 820px){
+    #filters{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .four{
+        display: none;
+    }
+}
 .filter{
     text-align: center;
     margin-right: 3rem;
