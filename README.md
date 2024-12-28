@@ -1,6 +1,6 @@
 # StaySphere - Major Project
 
-StaySphere is a web application designed for property listing and management. Users can look for accommodations, list their own properties, and manage their profiles. The app uses modern web technologies, organized using the **MVC (Model-View-Controller)** design pattern for better maintainability.
+StaySphere is a web application designed for property listing and management. Users can look for accommodations, list their own properties, and manage their profiles. The app uses modern web technologies, organized using the **MVC (Model-View-Controller)** design pattern for better maintainability. https://staysphere-majorproject.onrender.com/listings
 
 ## Features
 - **User Authentication**: Users can sign up, log in, and manage their profiles securely.
